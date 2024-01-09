@@ -1,11 +1,11 @@
 import {ReactComponent as Branch} from "./branch2.svg";
-import OneBranch from "./OneBranch";
+import SnowFlower from "./SnowFlower";
 
 
 function App() {
   return (
     <div className="App">
-      <OneBranch/>
+      <SnowFlower/>
     </div>
   );
 }
