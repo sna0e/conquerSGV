@@ -37,13 +37,13 @@ const SnowFlower = () => {
 
   return (
     <div>
-        <div sytle={{position:"inline"}}>
+        <div sytle={{position:"relative", width:"232px", height:"494px"}}>
             <OneBranch index={0} x={0} y={0} height={494-height*(494/10)} style={{position:"absolute"}}/>
-            <OneBranch index={1} x={0} y={0} height={494-height*(494/10)} style={{position:"absolute"}}/>
-            <OneBranch index={2} x={0} y={0} height={494-height*(494/10)} style={{position:"absolute"}}/>
-            <OneBranch index={3} x={0} y={0} height={494-height*(494/10)} style={{position:"absolute"}}/>
-            <OneBranch index={4} x={0} y={0} height={494-height*(494/10)} style={{position:"absolute"}}/>
-            <OneBranch index={5} x={0} y={0} height={494-height*(494/10)} style={{position:"absolute"}}/>
+            <OneBranch index={1} x={210} y={120} height={494-height*(494/10)} style={{position:"absolute"}}/>
+            <OneBranch index={2} x={210} y={360} height={494-height*(494/10)} style={{position:"absolute"}}/>
+            <OneBranch index={3} x={0} y={475} height={494-height*(494/10)} style={{position:"absolute"}}/>
+            <OneBranch index={4} x={-210} y={350} height={494-height*(494/10)} style={{position:"absolute"}}/>
+            <OneBranch index={5} x={-210} y={100} height={494-height*(494/10)} style={{position:"absolute"}}/>
         </div>
         <div>
             <button onClick={setOne}>increase</button>
