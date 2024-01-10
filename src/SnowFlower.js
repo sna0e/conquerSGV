@@ -29,9 +29,7 @@ const SnowFlower = () => {
             <OneBranch index={i} x={x} y={y} height={494-height*(494/10)} style={{position:"absolute"}}/>
         );
       }
-  }*/
-
-
+  }*/  
 
 
 
